@@ -98,6 +98,11 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_handle64_invoke')
         .clear_symbol_version('remote_handle64_open')
         .clear_symbol_version('remote_register_dma_handle'),
+    ('odm/etc/libnfc-mtp-SN100.conf_20161', 'odm/etc/libnfc-mtp-SN100.conf_20351'): blob_fixup()
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    'vendor/etc/libnfc-nxp.conf': blob_fixup()
+        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
+        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
         .add_needed('libcamera_metadata_shim.so')
         .binary_regex_replace(b'com.oem.autotest', b'\x00om.oem.autotest'),
