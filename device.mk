@@ -54,6 +54,12 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Regional properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/20161/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/20161/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/20161/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/20163/build.default.prop \
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/20351/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/20351/build.default.prop
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 

@@ -1,0 +1,6 @@
+ro.product.odm.device=OP4F7FL1
+ro.product.odm.model=CPH2247
+ro.product.odm.name=CPH2247EEA
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN100.conf_20351
