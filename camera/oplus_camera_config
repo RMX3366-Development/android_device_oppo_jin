@@ -207,7 +207,7 @@
   "VendorTag": "com.oplus.feature.portrait.new.style.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -389,7 +389,7 @@
   "VendorTag": "com.oplus.feature.portrait.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -690,7 +690,7 @@
   "VendorTag": "com.oplus.feature.ai.enhancement.video.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -872,7 +872,7 @@
   "VendorTag": "com.oplus.single.portrait.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -935,7 +935,7 @@
   "VendorTag": "com.oplus.portrait.single_blur_operating",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
@@ -1019,7 +1019,7 @@
   "VendorTag": "com.oplus.feature.ai.scene.portrait.hint.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 
 {
