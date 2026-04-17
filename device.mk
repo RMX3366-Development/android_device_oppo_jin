@@ -46,6 +46,9 @@ PRODUCT_COPY_FILES += \
 # Oplus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage

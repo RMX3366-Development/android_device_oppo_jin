@@ -335,7 +335,6 @@ odm/etc/camera/config/imx686
 odm/etc/camera/config/imx766
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b
 odm/etc/camera/config/s5k3m5
 odm/etc/camera/config/video_beauty_default_config
